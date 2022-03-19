@@ -1,20 +1,13 @@
-#include "holberton.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Print the word "Holberton"
+ * main - done deal
  *
- * Return: Always 0 (Success)
+ * Return: 0 always
  */
-
 int main(void)
 {
-int i;
-char p[] = "Holberton";
-
-for (i = 0; i < 9; i++)
-{
-_putchar(p[i]);
-}
-_putchar('\n');
+printf("_putchar\n");
 return (0);
 }
